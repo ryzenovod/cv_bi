@@ -11,3 +11,6 @@
 @media print{body{background:white;font-size:10pt}.wrap{width:100%}.header nav,.actions,.seal,.hero-note,.expertise,.save-contact,footer{display:none}.hero{padding:15px 0 25px;grid-template-columns:1.4fr .6fr;gap:30px}h1{font-size:55px}.portrait-frame{height:230px}.portrait figcaption{font-size:7px}.section-grid,.section-heading,.job{grid-template-columns:140px 1fr;gap:20px}.about,.skills{padding-block:25px}.experience{padding-bottom:20px}.education,.contact{padding-block:25px;background:white;color:var(--ink)}.contact-grid{gap:30px}.contact h2{font-size:40px}.contact p:not(.section-label),.contact-links>a small{color:var(--muted)}.job,.study{break-inside:avoid}.job{padding-block:20px}.contact-links>a{font-size:13px}.contact-links{padding-top:0}.contact .section-label{color:var(--muted)}}
 
 .experience{border-top:1px solid var(--rule);padding-top:55px}@media(max-width:700px){.experience{padding-top:35px}}
+.header{padding-block:12px}.brand img{width:24px;height:32px}.hero{padding-top:40px}.eyebrow{margin-bottom:20px}
+@media(min-width:1600px){.hero{padding-top:50px}}
+@media(max-width:700px){.header{padding-block:10px}.brand img{width:20px;height:27px}.hero{padding-top:25px;gap:27px}.eyebrow{margin-bottom:16px}.hero-role{margin-top:20px}.hero-note{margin-top:22px}}
